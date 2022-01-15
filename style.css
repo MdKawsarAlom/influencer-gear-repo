@@ -1,0 +1,82 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Work+Sans&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  background-color: whitesmoke;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+}
+.navigation li {
+  list-style: none;
+  margin: 20px;
+}
+.navigation li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+.banner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: calc(100%, -80px);
+}
+.banner-left h1 {
+  font-size: 40px;
+}
+.banner-left p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 20px 0;
+}
+.primary-button {
+  background-color: #e02c6d;
+  outline: 0;
+  border: 0;
+  padding: 15px 20px;
+  border-radius: 10px;
+  color: white;
+}
+.banner-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.banner-right {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.banner-right img {
+  width: 80%;
+}
+/* brand logos area */
+.brand-logo {
+  display: flex;
+  justify-content: center;
+  border: 1px solid whitesmoke;
+  margin: 20px;
+}
+.brand-logo img {
+  margin: 30px;
+  padding: 10px 0;
+}
