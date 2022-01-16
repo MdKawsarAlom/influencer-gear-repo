@@ -34,6 +34,7 @@ nav {
   color: black;
   font-weight: 700;
 }
+
 .banner {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -69,7 +70,43 @@ nav {
 .banner-right img {
   width: 80%;
 }
-/* brand logos area */
+
+/* cart area start */
+
+.cart-area {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+.cart {
+  width: 300px;
+  padding: 30px;
+  box-shadow: 10px 10px 10px 10px gray;
+}
+/* .cart .cart-banner img {
+  width: 280px;
+  height: 200px;
+} */
+.cart-info {
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+.fa-star.filled {
+  color: #fb8200;
+}
+.fa-star.empty {
+  color: #aeaeae;
+}
+.cart-header-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.cart-banner img {
+  width: 250px;
+}
+
+/* cart area end */
+/* brand logos area start */
 .brand-logo {
   display: flex;
   justify-content: center;
@@ -80,3 +117,47 @@ nav {
   margin: 30px;
   padding: 10px 0;
 }
+/* brand logo area end */
+
+/* footer area start */
+
+footer {
+  height: 200px;
+  background-color: black;
+  margin-top: 40px;
+}
+.footer-content {
+  padding: 20px;
+}
+
+.footer-content h3 {
+  color: white;
+  margin: 5px;
+  text-align: center;
+  margin: 10px;
+}
+footer p {
+  color: white;
+  margin: 5px;
+  text-align: center;
+}
+.icon {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0 30px 0;
+}
+.icon li {
+  margin: 0 10px;
+}
+.icon a {
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+}
+.icon a:hover i {
+  color: aqua;
+}
+
+/* footer area end */
